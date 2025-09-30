@@ -1,0 +1,165 @@
+/* Стилі для завдання 1 */
+.normal-text {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.italic-text {
+    font-style: italic;
+    font-size: 16px;
+    color: #555;
+}
+
+.underlined-text {
+    text-decoration: underline;
+    font-size: 16px;
+    color: #333;
+}
+
+.large-text {
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+}
+
+.colored-text {
+    color: #e74c3c;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.centered-text {
+    text-align: center;
+    font-size: 16px;
+    color: #2980b9;
+    font-style: italic;
+}
+
+.justified-text {
+    text-align: justify;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Стилі для завдання 3 - Багаторічні садові квіти */
+.flowers-page {
+    background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%);
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.main-title {
+    font-weight: bold;
+    color: #8B0000; /* темно-красний */
+    font-size: 35pt;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.content-menu {
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.content-menu h2 {
+    color: #4B0082; /* фіолетовий */
+    font-size: 20pt;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.content-menu ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.content-menu li {
+    margin: 10px 0;
+}
+
+.content-menu a {
+    color: #4B0082;
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.content-menu a:hover {
+    text-decoration: underline;
+}
+
+.flower-section {
+    background-color: rgba(255,255,255,0.9);
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.flower-title {
+    font-weight: bold;
+    color: #4B0082; /* фіолетовий */
+    font-size: 20pt;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #4B0082;
+    padding-bottom: 5px;
+}
+
+.flower-text {
+    color: black;
+    font-style: italic;
+    font-size: 14pt;
+    text-indent: 2%; /* відстань першого рядка 2% */
+    text-align: justify; /* вирівнювання по ширині */
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.flower-section a[href="#top"] {
+    color: #8B0000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12pt;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: rgba(139,0,0,0.1);
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.flower-section a[href="#top"]:hover {
+    background-color: rgba(139,0,0,0.2);
+    text-decoration: underline;
+}
+
+/* Загальні стилі для всіх сторінок */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
